@@ -36,7 +36,7 @@ def main():
     
     if content:
         print(content)
-        publish_post(content)
+        publish_post("WOLOLO #testfevo")
     else:
         print("Brak nadchodzących eventów F1")
 
