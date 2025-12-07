@@ -3,7 +3,7 @@ from publish_entry import publish_post
 
 TEXT_BEFORE = "🏁 Wykopowe odliczanie do powrutu Rajdów Formuły Pierwszej:\n"
 
-TEXT_AFTER = "\nf1 #odliczanief1"
+TEXT_AFTER = "\n#f1 #odliczanief1"
 
 def f1_countdown():
     today = datetime.now().date()
