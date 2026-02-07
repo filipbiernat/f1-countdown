@@ -9,8 +9,8 @@ def f1_countdown():
     today = datetime.now().date()
     
     events = {
-        "Do testów w Barcelonie pozostało": datetime(2026, 1, 26).date(),
-        "Do testów w Bahrajnie pozostało": datetime(2026, 2, 11).date(),
+        "Do pierwszej części testów w Bahrajnie pozostało": datetime(2026, 2, 11).date(),
+        "Do drugiej części testów w Bahrajnie pozostało": datetime(2026, 2, 18).date(),
         "Do Grand Prix Australii pozostało": datetime(2026, 3, 8).date(),
     }
     
