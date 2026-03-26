@@ -1,7 +1,7 @@
 from datetime import datetime
 from publish_entry import publish_post
 
-TEXT_BEFORE = "🏁 Wykopowe odliczanie do powrutu Rajdów Formuły Pierwszej:\n"
+TEXT_BEFORE = "🏁 Wykopowe odliczanie do powrutu @johnkashtan z niesłusznej banicji:\n"
 
 TEXT_AFTER = "\n#f1 #odliczanief1"
 
@@ -9,9 +9,7 @@ def f1_countdown():
     today = datetime.now().date()
     
     events = {
-        "Do pierwszej części testów w Bahrajnie pozostało": datetime(2026, 2, 11).date(),
-        "Do drugiej części testów w Bahrajnie pozostało": datetime(2026, 2, 18).date(),
-        "Do Grand Prix Australii pozostało": datetime(2026, 3, 8).date(),
+        "Do uwolnienia Jana Kasztana pozostało": datetime(2026, 4, 9).date(),
     }
     
     upcoming = {name: date for name, date in events.items() if date >= today}
